@@ -1,6 +1,6 @@
 # smart-contract-sample
 
-# important steps
+## important steps
 - Install metamask chrome extension
 - Save your passcode in HD_WALLET_PASSWORD env variable.
 - open account
@@ -10,6 +10,17 @@
 - On infura dashboard create new project and select Rinkeby network instead of Mainnet.
   and copy the endpoints   
 - Use that link while deploying to rinkbey network. set ETH_NETWORK_URL=<endpoint that you got from infura> 
+- Once you deploy, you will get smart contract address. 
+- You can interact with this smart contract using smart contract address.
+
+##  Test
+```
+  npm run test
+```
+##  Deploy
+```
+  npm run deploy
+```
 
 
 
